@@ -70,6 +70,7 @@ a=2
 b=3
 c=a**b
 print "6-c的值为：",c
+print "7-c的值为：",c
 
 
 
