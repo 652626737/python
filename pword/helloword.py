@@ -5,6 +5,7 @@ Created on 2018年7月3日
 @author: liyong
 '''
 #这是第一个注释
+
 print "hello word"
 
 # 这是第二个注释
@@ -77,5 +78,14 @@ b=5
 c=a//b
 print "8-c的值为：",c
 
-
-
+a=21
+b=10
+c=0
+if(a == b):
+    print"1-a=b"
+else:
+    print"2-a不等于b"
+if(a!=b):
+    print"3-a不等于b"
+else:
+    print "4-a等于b" 
