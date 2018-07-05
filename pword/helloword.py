@@ -124,6 +124,8 @@ print "a^b=",c
 print "---------------------"
 
 print "a按位取反为:",~a
-print "a左移运算符",a<<2
-print "b"
+print "a左移运算符=",a<<2
+print "b=",b
+print "b右移运算符=",b>>2
+
     
