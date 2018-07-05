@@ -75,7 +75,7 @@ print "7-c的值为：",c
 a=10
 b=5
 c=a//b
-print "8-的值为：",c
+print "8-c的值为：",c
 
 
 
