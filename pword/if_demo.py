@@ -6,7 +6,6 @@ Created on 2018年7月9日
 @author: liyong
 '''
 #if基本语法
-from pword.helloword import name
 flag = False
 name = 'luren'
 if name == "python":
@@ -26,3 +25,18 @@ elif num<0:
     print "erro"
 else:
     print "roadman"
+num = 9
+if num>=0 and num<=10:
+    print"hello"
+num = 10
+if num<0 or num>10:
+    print "hello"
+else:
+    print"undefine"
+num = 8
+#判断一个值是否在0-5或者是10-15之间
+if (num<=0and num<=5) or (num>=10 and num <=15):
+    print"hello"
+else:
+    print"undefine"
+    
