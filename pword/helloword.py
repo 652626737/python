@@ -206,12 +206,20 @@ is    is 是判断两个标识符是不是引用自一个对象
 '''
 a=20
 b=20
+print "a is id=",id(a)
+print "b is id=",id(b)
+
 if(a is b):
-    print"a and b引用同一个对象"
+    print"1-a and b引用同一个对象"
 else:
-    print"a and b 引用不同对象"
-        
-        
+    print"1-a and b 引用不同对象"
+#修改b的值
+b=10
+if(a is not b):
+    print"2-a and b 引用不同的对象"
+else:
+    print"2-a and b 引用同一对象"
+
         
         
         
