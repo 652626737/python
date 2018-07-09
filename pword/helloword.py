@@ -127,5 +127,46 @@ print "a按位取反为:",~a
 print "a左移运算符=",a<<2
 print "b=",b
 print "b右移运算符=",b>>2
+print "-------------------"
+a=21
+b=10
+c=0
+c=a+b
+print "1-c的值为：",c
+c+=a
+print"2-c的值为：",c
+c*=a
+print "3-c的值为：",c
+c/=a
+print "4-c的值为：",c
+c=2 
+c%=a
+c**=a
+print "5-c的值为：",c
+c//= a
+print "6-c的值为：",c
+a=10
+b=20
+# c=a&b
+print "7-c的值为：",c
+if ( a and b ):
+    print "1-变量a和b都为true"
+else:
+    print "2-变量a和都为不为true"
+if(a or b):
+    print "3-变量a和b的值为真，或者其中一个变量为真。"    
 
+    
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
     
