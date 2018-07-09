@@ -5,6 +5,7 @@ Created on 2018年7月3日
 @author: liyong
 '''
 #这是第一个注释
+from test.pickletester import DATA0
 print "hello word"
 
 # 这是第二个注释
@@ -171,9 +172,44 @@ if not(a and b):
     print "5-变量a和b都为假，或其中一个变量为假"
 else:
     print"5-变量a和b的值都为真"
+
+''' 
+in    如果在指定的序列中找到值返回 True，
+否则返回 False。    x 在 y 序列中 , 如果 x 在 y 序列中返回 True
+'''
+a=10
+b=20
+list = range(10)
+print "list = ",list
+if(a in list):
+    print "1-变量a在给的列表list中"
+else:
+    print"1-变量a不在给与的列表list中"
+if(b not in list):
+    print "2-b变量不在给与的列表list中"
+else:
+    print"2-b变量在给与的列表list中"
+# 修改a变量的值
+a=5
+if(a in list):
+    print "3-变量a在给与的list列表中"
+else:
+    print "3-变量a不在给与的list列表中"
+if(b not in list ):
+    print"4-变量b不在给与的列表list中"
+else:
+    print"4-变量b在给与的列表中"
     
-        
-        
+'''
+is    is 是判断两个标识符是不是引用自一个对象   
+ x is y, 类似 id(x) == id(y) , 如果引用的是同一个对象则返回 True，否则返回 False
+'''
+a=20
+b=20
+if(a is b):
+    print"a and b引用同一个对象"
+else:
+    print"a and b 引用不同对象"
         
         
         
