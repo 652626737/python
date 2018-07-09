@@ -152,10 +152,25 @@ print "7-c的值为：",c
 if ( a and b ):
     print "1-变量a和b都为true"
 else:
-    print "2-变量a和都为不为true"
+    print "1-变量a和都为不为true"
 if(a or b):
-    print "3-变量a和b的值为真，或者其中一个变量为真。"    
-
+    print "2-变量a和b的值为真，或者其中一个变量为真。"    
+else:
+    print"2-变量a和b的值不为真"
+# 修改a变量的值
+a=0
+if(a and b):
+    print"3-变量a和b都为true"
+else:
+    print"3-变量a和b有一个不为真"
+if(a or b):
+    print"4-变量a和b的值都为真，或其中一个为真。"
+else:
+    print"4-变量a和b的值都不为真"
+if not(a and b):
+    print "5-变量a和b都为假，或其中一个变量为假"
+else:
+    print"5-变量a和b的值都为真"
     
         
         
