@@ -39,4 +39,55 @@ if (num<=0and num<=5) or (num>=10 and num <=15):
     print"hello"
 else:
     print"undefine"
+var = 100
+if ( var == 100):print "变量var的值为100"
+print "good bye"
     
+num = range(100)
+even = []
+odd =[]
+while len(num)>0:
+    number = num.pop()
+    if(number%2==0):
+            even.append(number)
+    else:
+            odd.append(number)
+print even
+print odd
+count=0
+while count<10:
+    print "the count is ",count
+    count+=1
+            
+i=1
+while i<10:
+    i+=1
+
+    if i%2>0:
+        continue
+    print i
+             
+i=1
+while 1:
+    print i
+    i+=1
+    if i>100:
+        break        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
