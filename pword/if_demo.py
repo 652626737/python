@@ -6,6 +6,9 @@ Created on 2018年7月9日
 @author: liyong
 '''
 #if基本语法
+from StdSuites.Type_Names_Suite import null
+from test.test_getargs2 import Int
+from __builtin__ import int
 flag = False
 name = 'luren'
 if name == "python":
@@ -73,10 +76,22 @@ while 1:
     i+=1
     if i>100:
         break        
+var = 1
+# while var ==1:
+#     num =int(raw_input("输入一个数？\n"))
+#     print type(num)
+#     if(isinstance(num, int)):
+#         print "你输入的是",num
+#         print "good bye!"
+count = 0
+while count<5:
+    print count ,"is less than 5"
+    count+=1
+else:
+    print count,"is not less than 5"
 
 
-
-
+        
 
 
 
