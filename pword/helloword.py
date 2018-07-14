@@ -18,7 +18,7 @@ name="liyong"
 
 # 同一行显示多条语句
 import sys
-x="liyong123"
+x="liyong123"       
 sys.stdout.write(x + "\n")
 x="a"
 y="b"

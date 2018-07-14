@@ -6,9 +6,6 @@ Created on 2018年7月9日
 @author: liyong
 '''
 #if基本语法
-from StdSuites.Type_Names_Suite import null
-from test.test_getargs2 import Int
-from __builtin__ import int
 flag = False
 name = 'luren'
 if name == "python":
