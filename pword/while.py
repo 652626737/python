@@ -4,67 +4,46 @@ Created on 2018年7月10日
 
 @author: liyong
 '''
-num = range(100)
+nums = range(100)
 even = []
-odd =[]
-while len(num)>0:
-    number = num.pop()
-    if(number%2==0):
-            even.append(number)
+odd = []
+while len(nums)>0:
+    num = nums.pop()
+    if (num % 2 == 0 ) :
+        even.append(num)
+        even.reverse()
     else:
-            odd.append(number)
-print even
+        odd.append(num)
+
+nums2 = range(200)
+even2 = []
+odd2 = []
+while len(nums2)>0:
+    num2 = nums2.pop()
+    if (num2 % 2 ==0 ) :
+        even2.append(num2)
+    else:
+        odd2.append(num2)
+# 获取前10个元素
+print even[:10]
+# 获取倒数10个原素
+print even[-10:]
+# 获取前10个元素隔1个打印一个
+print even[:10:2]
 print odd
-count=0
-while count<10:
-    print "the count is ",count
-    count+=1
-            
-i=1
-while i<10:
-    i+=1
-
-    if i%2>0:
-        continue
-    print i
-             
-i=1
-while 1:
-    print i
-    i+=1
-    if i>100:
-        break        
-var = 1
-# while var ==1:
-#     num =int(raw_input("输入一个数？\n"))
-#     print type(num)
-#     if(isinstance(num, int)):
-#         print "你输入的是",num
-#         print "good bye!"
-count = 0
-while count<5:
-    print count ,"is less than 5"
-    count+=1
-else:
-    print count,"is not less than 5"
-    a=1
-while 1:
-    print "given flag is really true!"
-    print a
+print even2
+print odd2
+# break结束循环
+a=1
+while a<20:
     a+=1
-    
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    if a%2>0:
+        break
+    print a
+# continue结束本兮循环集训下次循环
+a=1
+while a<20:
+    a+=1
+    if a%2>0:
+        continue
+    print a
