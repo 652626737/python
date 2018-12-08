@@ -4,10 +4,7 @@ Created on 2018年11月14日
 
 @author: liyong
 '''
-from collections import Counter
-from numpy import number
-from __builtin__ import str
-from pword.if_demo import num
+
 
 shopping_car = []
 xiangqing = []
