@@ -17,5 +17,5 @@ dic1["name"] = "user"
 print "--------修改后-------"
 print dic1["name"]
 # 在定义一个字典
-dic2 = {'name':"Lee",'age':19,'hobby':"boy"}
+dic2 = {'name':"小重山",'age':19,'hobby':"boy"}
 print dic2['age']

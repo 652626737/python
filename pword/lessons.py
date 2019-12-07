@@ -26,19 +26,19 @@ back_flag = False
 while not back_flag:
     for key in av_catalog:
         print key
-    choice = raw_input("层1").strip()
+    choice = raw_input("层1".center(20,"-")).strip()
     if choice in av_catalog:
         while not back_flag:
             for key2 in av_catalog[choice]:
                 print key2
-            choice2 = raw_input("层2").strip()
+            choice2 = raw_input("层2".center(20,"-")+"/n").strip()
             if choice2 == "b":
                 back_flag = True
             if choice2 in av_catalog[choice]:
                 while not back_flag:
                     for key3 in av_catalog[choice][choice2]:
                         print key3
-                    choice3 = raw_input("层3").strip()
+                    choice3 = raw_input("层3".center(20,"-")).strip()
                     if choice3 == "b":
                         back_flag = True
                     else:
